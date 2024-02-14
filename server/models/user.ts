@@ -50,7 +50,6 @@ export class User {
       });
       findUser[0].name = newName;
     }
-
     return findUser;
   }
   async getChangesNameLogs(userId: string) {
