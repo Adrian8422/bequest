@@ -10,7 +10,7 @@ export const getUser = async (userId: string) => {
   return userFound;
 };
 export const findOrCreateUser = async (name: string, password: string) => {
-  // Here we perform the search in database
+  // Here we perform the search in databases
 
   const findUser = await user.findUserByName(name);
 
